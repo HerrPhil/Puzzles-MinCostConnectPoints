@@ -23,9 +23,11 @@ that determines what should be popped next from the heap.
 The shortest distances are desired for the minimum spanning tree.
 
 I will have to do some abstract visualizing and experimental code
-to ensure the heap has the smallest distant on top,
-and the heap eventually is empty.
+to ensure the heap has the smallest distant on top.
+Note, the heap may not be empty when the stop condition is met.
 
-The goal is to have a minimum spanning tree with
-the same number of points as the original set
+The goal is to have a minimum spanning tree.
+The stop condition is the MST has the same number of points as the original set points
 and the number of edges is one less than the number of points. 
+
+The output is the total (minimum) cost to span an edge to every point.
