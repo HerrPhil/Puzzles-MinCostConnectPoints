@@ -48,6 +48,28 @@ public class MinCostConnectPoints {
 
     public int findMinimumCost(List<List<Integer>> points) {
         System.out.printf("Find the minimum cost of connected points in a minimum span tree%n");
+
+        PriorityQueue<Integer> intQueue = new PriorityQueue<>();
+
+        intQueue.add(1);
+        intQueue.add(5);
+        intQueue.add(2);
+        intQueue.add(4);
+        intQueue.add(3);
+
+        while(intQueue.peek() != null) {
+            int value = intQueue.poll();
+            System.out.printf("from the top of the heap %d%n", value);
+        }
+
+        MinimumTreeSpan span = new MinimumTreeSpan(123, 1);
+        System.out.printf("%s%n", span.toString());
+        System.out.printf("hash code is %d%n", span.hashCode());
+        System.out.printf("equals to span expect true actual = %b%n", span.equals(new MinimumTreeSpan(123,1)));
+        System.out.printf("equals to span expect false actual = %b%n", span.equals(new MinimumTreeSpan(123,0)));
+        System.out.printf("equals to string expect false actual = %b%n", span.equals("test"));
+        System.out.printf("equals to null expect false actual = %b%n", span.equals(null));
+
         return -1;
     }
 
