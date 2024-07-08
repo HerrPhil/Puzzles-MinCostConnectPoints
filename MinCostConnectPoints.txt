@@ -1,0 +1,119 @@
+Hello Minimum Cost to Connect Points Solution #1
+Find the minimum cost of connected points in a minimum span tree
+
+
+while the size of seen points is less than n
+The following is the next minimum tree span
+Minimum Tree Span of distance = 0 and point index = 0
+The seen set does not contain point index = 0
+Added pointIndex = 0 to seen set
+Added distance = 0 to total cost
+For jth point index = 0
+goto to next j
+For jth point index = 1
+pushed to heap minimum tree span of distance = 4 and point index = 1
+goto to next j
+For jth point index = 2
+pushed to heap minimum tree span of distance = 13 and point index = 2
+goto to next j
+For jth point index = 3
+pushed to heap minimum tree span of distance = 7 and point index = 3
+goto to next j
+For jth point index = 4
+pushed to heap minimum tree span of distance = 7 and point index = 4
+goto to next j
+
+
+while the size of seen points is less than n
+The following is the next minimum tree span
+Minimum Tree Span of distance = 4 and point index = 1
+The seen set does not contain point index = 1
+Added pointIndex = 1 to seen set
+Added distance = 4 to total cost
+For jth point index = 0
+goto to next j
+For jth point index = 1
+goto to next j
+For jth point index = 2
+pushed to heap minimum tree span of distance = 9 and point index = 2
+goto to next j
+For jth point index = 3
+pushed to heap minimum tree span of distance = 3 and point index = 3
+goto to next j
+For jth point index = 4
+pushed to heap minimum tree span of distance = 7 and point index = 4
+goto to next j
+
+
+while the size of seen points is less than n
+The following is the next minimum tree span
+Minimum Tree Span of distance = 3 and point index = 3
+The seen set does not contain point index = 3
+Added pointIndex = 3 to seen set
+Added distance = 3 to total cost
+For jth point index = 0
+goto to next j
+For jth point index = 1
+goto to next j
+For jth point index = 2
+pushed to heap minimum tree span of distance = 10 and point index = 2
+goto to next j
+For jth point index = 3
+goto to next j
+For jth point index = 4
+pushed to heap minimum tree span of distance = 4 and point index = 4
+goto to next j
+
+
+while the size of seen points is less than n
+The following is the next minimum tree span
+Minimum Tree Span of distance = 4 and point index = 4
+The seen set does not contain point index = 4
+Added pointIndex = 4 to seen set
+Added distance = 4 to total cost
+For jth point index = 0
+goto to next j
+For jth point index = 1
+goto to next j
+For jth point index = 2
+pushed to heap minimum tree span of distance = 14 and point index = 2
+goto to next j
+For jth point index = 3
+goto to next j
+For jth point index = 4
+goto to next j
+
+
+while the size of seen points is less than n
+The following is the next minimum tree span
+Minimum Tree Span of distance = 7 and point index = 3
+
+
+while the size of seen points is less than n
+The following is the next minimum tree span
+Minimum Tree Span of distance = 7 and point index = 4
+
+
+while the size of seen points is less than n
+The following is the next minimum tree span
+Minimum Tree Span of distance = 7 and point index = 4
+
+
+while the size of seen points is less than n
+The following is the next minimum tree span
+Minimum Tree Span of distance = 9 and point index = 2
+The seen set does not contain point index = 2
+Added pointIndex = 2 to seen set
+Added distance = 9 to total cost
+For jth point index = 0
+goto to next j
+For jth point index = 1
+goto to next j
+For jth point index = 2
+goto to next j
+For jth point index = 3
+goto to next j
+For jth point index = 4
+goto to next j
+
+minimum cost of connected points = 20
